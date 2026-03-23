@@ -4,12 +4,12 @@ nand2tetris 전체 로드맵 - 정제일
 
 [ PROJECT 1 - 논리 게이트 ]
 순서:
-  1. Not       - NAND 1개로 완성
+  1. Not       - NAND 1개 ✅
   2. And       - NAND 2개 ✅
-  3. Or        - NAND 3개
+  3. Or        - NAND 3개 ✅
   4. Xor       - NAND 4개 ✅
-  5. Mux       - 3:1 멀티플렉서 (sel로 a or b 선택)
-  6. DMux      - 1:2 디멀티플렉서
+  5. Mux       - 3:1 멀티플렉서 (sel로 a or b 선택) ✅
+  6. DMux      - 1:2 디멀티플렉서 ✅
   --- 16비트 버전 ---
   7. Not16
   8. And16

@@ -12,5 +12,13 @@ CHIP DMux {
     OUT a, b;
 
     PARTS:
-    //// Replace this comment with your code.
+        Nand(a=sel,b=sel,out=notsel);
+        Nand(a=in, b=notsel, out = n1);
+        Nand(a=n1,b=n1,out=a); //sel=0 일 때 a=in
+        Nand(a=sel,b=in,out=n2);
+        Nand(a=n2,b=n2,out=b); //sel=1일 때 b=in
 }
+
+/*
+(not sel and a) or (sel and b)
+*/
