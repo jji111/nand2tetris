@@ -11,10 +11,10 @@ nand2tetris 전체 로드맵 - 정제일
   5. Mux       - 3:1 멀티플렉서 (sel로 a or b 선택) ✅
   6. DMux      - 1:2 디멀티플렉서 ✅
   --- 16비트 버전 ---
-  7. Not16
-  8. And16
-  9. Or16
-  10. Mux16
+  7. Not16✅
+  8. And16✅
+  9. Or16✅
+  10. Mux16✅
   11. Or8Way   - 8개 입력 Or
   12. Mux4Way16
   13. Mux8Way16
